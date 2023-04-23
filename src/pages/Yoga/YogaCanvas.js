@@ -143,8 +143,8 @@ function YogaCanvas() {
       detectorConfig
     );
     const poseClassifier = await tf.loadLayersModel(
-      // "https://models.s3.jp-tok.cloud-object-storage.appdomain.cloud/model.json"
-      "https://github.com/vd-37/Yoga-Posture/blob/main/src/model.json"
+      "https://models.s3.jp-tok.cloud-object-storage.appdomain.cloud/model.json"
+      // model
     );
     const countAudio = new Audio(count);
     countAudio.loop = true;
